@@ -47,7 +47,7 @@ function Gallery() {
                         <div className="laptop-container scroll-section">
                             <img className="laptop-size" src="https://github.com/adamfenji/portfolio/blob/main/img/laptop-container.png?raw=true" />
                             <video autoPlay loop className="video-size">
-                                <source src="../video/weatherflipper-vid.mp4" type="video/mp4" />
+                                <source src="https://github.com/adamfenji/portfolio/blob/main/video/weatherflipper-vid.mp4?raw=true" type="video/mp4" />
                             </video>
                         </div>
 

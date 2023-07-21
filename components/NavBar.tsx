@@ -9,7 +9,7 @@ function NavBar(){
                     <li>SKILLS</li>
                     <li>CAREER</li>
                     <li>PROJECTS</li>
-                    <li id="hireMe">HIRE ME!</li>
+                    <li>CONTACT</li>
                 </ul>
             </div>
         </div>
