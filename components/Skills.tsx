@@ -40,77 +40,77 @@ function Skills() {
                 </div>
 
                 <div className="skillCard">
-                    <img className="skillIcon" src="../img/css-icon.png" />
+                    <img className="skillIcon" src="https://github.com/adamfenji/portfolio/blob/main/img/css-icon.png?raw=true" />
                     <p>CSS</p>
                 </div>
 
                 <div className="skillCard">
-                    <img className="skillIcon" src="../img/js-icon.png" />
+                    <img className="skillIcon" src="https://github.com/adamfenji/portfolio/blob/main/img/js-icon.png?raw=true" />
                     <p>JavaScript</p>
                 </div>
 
                 <div className="skillCard">
-                    <img className="skillIcon" id="ts-icon" src="../img/ts-icon.png" />
+                    <img className="skillIcon" id="ts-icon" src="https://github.com/adamfenji/portfolio/blob/main/ts-icon.png?raw=true" />
                     <p>TypeScript</p>
                 </div>
 
                 <div className="skillCard">
-                    <img className="skillIcon" src="../img/react-icon.png" />
+                    <img className="skillIcon" src="https://github.com/adamfenji/portfolio/blob/main/img/img/react-icon.png?raw=true" />
                     <p>ReactJS</p>
                 </div>
 
                 <div className="skillCard">
-                    <img className="skillIcon" src="../img/java-icon.png" />
+                    <img className="skillIcon" src="https://github.com/adamfenji/portfolio/blob/main/img/java-icon.png?raw=true" />
                     <p>Java</p>
                 </div>
 
                 <div className="skillCard">
-                    <img className="skillIcon" src="../img/python-icon.png" />
+                    <img className="skillIcon" src="https://github.com/adamfenji/portfolio/blob/main/img/python-icon.png?raw=true" />
                     <p>Python</p>
                 </div>
 
                 <div className="skillCard">
-                    <img className="skillIcon" src="../img/csharp-icon.png" />
+                    <img className="skillIcon" src="https://github.com/adamfenji/portfolio/blob/main/img/csharp-icon.png?raw=true" />
                     <p>C #</p>
                 </div>
 
                 <div className="skillCard">
-                    <img className="skillIcon" src="../img/mysql-icon.png" />
+                    <img className="skillIcon" src="https://github.com/adamfenji/portfolio/blob/main/img/mysql-icon.png?raw=true" />
                     <p>SQL</p>
                 </div>
 
                 <div className="skillCard">
-                    <img className="skillIcon" src="../img/git-icon.png" />
+                    <img className="skillIcon" src="https://github.com/adamfenji/portfolio/blob/main/img/git-icon.png?raw=true" />
                     <p>Git</p>
                 </div>
 
                 <div className="skillCard">
-                    <img className="skillIcon" src="../img/github-icon.png" />
+                    <img className="skillIcon" src="https://github.com/adamfenji/portfolio/blob/main/img/github-icon.png?raw=true" />
                     <p>GitHub</p>
                 </div>
 
                 <div className="skillCard">
-                    <img className="skillIcon" src="../img/chatgpt-icon.png" />
+                    <img className="skillIcon" src="https://github.com/adamfenji/portfolio/blob/main/img/chatgpt-icon.png?raw=true" />
                     <p>ChatGPT</p>
                 </div>
 
                 <div className="skillCard">
-                    <img className="skillIcon" src="../img/intellij-icon.png" />
+                    <img className="skillIcon" src="https://github.com/adamfenji/portfolio/blob/main/img/intellij-icon.png?raw=true" />
                     <p>IntelliJ</p>
                 </div>
 
                 <div className="skillCard">
-                    <img className="skillIcon" src="../img/pycharm-icon.png" />
+                    <img className="skillIcon" src="https://github.com/adamfenji/portfolio/blob/main/img/pycharm-icon.png?raw=true" />
                     <p>PyCharm</p>
                 </div>
 
                 <div className="skillCard">
-                    <img className="skillIcon" src="../img/vscode-icon.png" />
+                    <img className="skillIcon" src="https://github.com/adamfenji/portfolio/blob/main/img/vscode-icon.png?raw=true" />
                     <p>VS Code</p>
                 </div>
 
                 <div className="skillCard">
-                    <img className="skillIcon" src="../img/visualstudio-icon.png" />
+                    <img className="skillIcon" src="https://github.com/adamfenji/portfolio/blob/main/img/visualstudio-icon.png?raw=true" />
                     <p>Visual Studio</p>
                 </div>
 
