@@ -1,8 +1,9 @@
-.skillsContainer{
+.skillsContainer {
     background-color: #eff1ed;
 }
 
-.skillsCardContainer{
+.skillsCardContainer {
+    margin-left: 1%;
     background-color: #eff1ed;
     padding: 30px;
     display: flex;
@@ -10,7 +11,7 @@
     gap: 10px;
 }
 
-.skillCard{
+.skillCard {
     margin: 10px;
     border: 1.5px solid #333d29;
     color: #333d29;
@@ -19,20 +20,20 @@
     box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.3);
 }
 
-.skillIcon{
+.skillIcon {
     padding-top: 10px;
     width: auto;
     height: 80px;
 }
 
-#ts-icon{
+#ts-icon {
     padding-top: 20px;
     padding-bottom: 10px;
     width: 60px;
-    height: 60px;  
+    height: 60px;
 }
 
-.skillsDescription h3{
+.skillsDescription h3 {
     padding-top: 3%;
     color: #333d29;
     font-size: xx-large;
@@ -40,6 +41,40 @@
     line-height: normal;
 }
 
-.skillsDescription p{
+.skillsDescription p {
     color: #333d29;
+    padding: 0% 2%;
 }
+
+/* For phones */
+@media screen and (max-width: 767px) {}
+
+/* DONE For tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .skillsCardContainer {
+        background-color: #eff1ed;
+        padding: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    
+    .skillsDescription h3 {
+        padding-top: 4%;
+        color: #333d29;
+        font-size: xx-large;
+        text-transform: capitalize;
+        line-height: normal;
+    }
+    
+    .skillsDescription p {
+        color: #333d29;
+        padding: 0% 2%;
+    }
+}
+
+/* For laptops */
+@media screen and (min-width: 992px) and (max-width: 1199px) {}
+
+/* For big screens */
+@media screen and (min-width: 1200px) {}

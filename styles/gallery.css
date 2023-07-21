@@ -48,3 +48,21 @@
   justify-content: center;
   align-items: center;
 }
+
+/* For phones */
+@media screen and (max-width: 767px) {}
+
+/* DONE For tablets */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .scroll-section-inner {
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+/* For laptops */
+@media screen and (min-width: 992px) and (max-width: 1199px) {}
+
+/* For big screens */
+@media screen and (min-width: 1200px) {}

@@ -1,36 +1,100 @@
-.headerContainer{
+.headerContainer {
     background-color: #333d29;
 }
 
-.afName{
-    /* color: #936639; */
+/* For phones */
+@media screen and (max-width: 767px) {
+
 }
 
-.greetingHeading{
-    padding-top: 4%;
-    padding-left: 4%;
-    width: 60%;
-    text-align: left;
-    font-size: 2rem;
-    white-space: nowrap;
-    line-height: 1.5rem;
+/* DONE For tablets */ 
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .greetingHeading {
+        padding-top: 10%;
+        padding-left: 4%;
+        text-align: left;
+        font-size: 1.4rem;
+        white-space: nowrap;
+        line-height: 1.5rem;
+    }
+    
+    .imageHeading {
+        float: right;
+        height: 350px;
+        padding: 20px;
+        border-radius: 100%;
+    }
+    
+    .descriptionHeading {
+        text-align: left;
+        width: 100%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+    
+    .headshotHeading {
+        height: 500px;
+    }
 }
 
-.imageHeading{
-    float: right;
-    height: 400px;
-    padding: 25px;
-    border-radius: 100%;
+/* DONE For laptops */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .greetingHeading {
+        padding-top: 4%;
+        padding-left: 4%;
+        width: 60%;
+        text-align: left;
+        font-size: 2rem;
+        white-space: nowrap;
+        line-height: 1.5rem;
+    }
+    
+    .imageHeading {
+        float: right;
+        height: 400px;
+        padding: 25px;
+        border-radius: 100%;
+    }
+    
+    .descriptionHeading {
+        text-align: left;
+        width: 40%;
+        margin-top: -1%;
+        margin-left: 2%;
+    }
+    
+    .headshotHeading {
+        height: 500px;
+    }
 }
 
-.descriptionHeading{
-    text-align: left;
-    width: 40%;
-    margin-top: -1%;
-    margin-left: 2%;
+/* For big screens */
+@media screen and (min-width: 1200px) {
+    .greetingHeading {
+        padding-top: 4%;
+        padding-left: 4%;
+        width: 60%;
+        text-align: left;
+        font-size: 2rem;
+        white-space: nowrap;
+        line-height: 1.5rem;
+    }
+    
+    .imageHeading {
+        float: right;
+        height: 400px;
+        padding: 25px;
+        border-radius: 100%;
+    }
+    
+    .descriptionHeading {
+        text-align: left;
+        width: 40%;
+        margin-top: -1%;
+        margin-left: 2%;
+    }
+    
+    .headshotHeading {
+        height: 500px;
+    }
 }
-
-.headshotHeading{
-    height: 500px;
-}
-
