@@ -50,12 +50,12 @@ function Skills() {
                 </div>
 
                 <div className="skillCard">
-                    <img className="skillIcon" id="ts-icon" src="https://github.com/adamfenji/portfolio/blob/main/ts-icon.png?raw=true" />
+                    <img className="skillIcon" id="ts-icon" src="https://github.com/adamfenji/portfolio/blob/main/img/ts-icon.png?raw=true" />
                     <p>TypeScript</p>
                 </div>
 
                 <div className="skillCard">
-                    <img className="skillIcon" src="https://github.com/adamfenji/portfolio/blob/main/img/img/react-icon.png?raw=true" />
+                    <img className="skillIcon" src="https://github.com/adamfenji/portfolio/blob/main/img/react-icon.png?raw=true" />
                     <p>ReactJS</p>
                 </div>
 

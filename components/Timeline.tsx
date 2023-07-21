@@ -29,7 +29,7 @@ function Timeline() {
                 >
 
                     <div className="workStack">
-                        <img className='stackImg' src='../img/java-icon.png' />
+                        <img className='stackImg' src='https://github.com/adamfenji/portfolio/blob/main/img/java-icon.png?raw=true' />
                     </div>
 
                     <h3 className="workTitle">Software Developer & WTA Official, WTA</h3>
@@ -53,8 +53,8 @@ function Timeline() {
                 >
 
                     <div className="workStack">
-                        <img className='stackImg' src='../img/csharp-icon.png' />
-                        <img className='stackImg' src='../img/mysql-icon.png' />
+                        <img className='stackImg' src='https://github.com/adamfenji/portfolio/blob/main/img/csharp-icon.png?raw=true' />
+                        <img className='stackImg' src='https://github.com/adamfenji/portfolio/blob/main/img/mysql-icon.png?raw=true' />
                     </div>
 
                     <h3 className="workTitle">Software Engineer Intern, ONCF</h3>
@@ -77,10 +77,10 @@ function Timeline() {
                 >
 
                     <div className="workStack">
-                        <img className='stackImg' src='../img/html-icon.png' />
-                        <img className='stackImg' src='../img/css-icon.png' />
-                        <img className='stackImg' id='tsImg' src='../img/ts-icon.png' />
-                        <img className='stackImg' src='../img/react-icon.png' />
+                        <img className='stackImg' src='https://github.com/adamfenji/portfolio/blob/main/img/html-icon.png?raw=true' />
+                        <img className='stackImg' src='https://github.com/adamfenji/portfolio/blob/main/img/css-icon.png?raw=true' />
+                        <img className='stackImg' id='tsImg' src='https://github.com/adamfenji/portfolio/blob/main/img/ts-icon.png?raw=true' />
+                        <img className='stackImg' src='https://github.com/adamfenji/portfolio/blob/main/img/react-icon.png?raw=true' />
                     </div>
 
                     <h3 className="workTitle">Front-End Research Inten, MTU</h3>

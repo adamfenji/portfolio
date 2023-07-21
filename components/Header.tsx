@@ -5,7 +5,7 @@ function Header() {
         <div className='headerContainer'>
 
             <div className="headshotHeading">
-                <img className="imageHeading" src="../img/af-img.JPEG" />
+                <img className="imageHeading" src="https://github.com/adamfenji/portfolio/blob/main/img/af-img.JPEG?raw=true" />
                 <div className="greetingHeading">
                     <h1>Nice to meet you!</h1>
                     <h1>I'm <strong className='afName'>Adam Fenjiro</strong>.</h1>

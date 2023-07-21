@@ -45,15 +45,15 @@ function Gallery() {
                 <div ref={triggerRef}>
                     <div ref={sectionRef} className="scroll-section-inner">
                         <div className="laptop-container scroll-section">
-                            <img className="laptop-size" src="../img/laptop-container.png" />
+                            <img className="laptop-size" src="https://github.com/adamfenji/portfolio/blob/main/img/laptop-container.png?raw=true" />
                             <video autoPlay loop className="video-size">
                                 <source src="../video/weatherflipper-vid.mp4" type="video/mp4" />
                             </video>
                         </div>
 
                         <div className="laptop-container scroll-section">
-                            <img className="laptop-size" src="../img/laptop-container.png" />
-                            <img className="video-size" src="../img/gameHub-img.png" />
+                            <img className="laptop-size" src="https://github.com/adamfenji/portfolio/blob/main/img/laptop-container.png?raw=true" />
+                            <img className="video-size" src="https://github.com/adamfenji/portfolio/blob/main/img/gameHub-img.png?raw=true" />
                         </div>
                     </div>
                 </div>
