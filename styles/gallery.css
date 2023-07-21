@@ -1,0 +1,50 @@
+.galleryContainer {
+  background-color: #eff1ed;
+}
+
+.galleryDescription {
+  color: #333d29;
+}
+
+.galleryDescription h3 {
+  padding-top: 2%;
+  font-size: xx-large;
+  text-transform: capitalize;
+  color: #333d29;
+}
+
+.laptop-size {
+  height: 410px;
+  width: 750px;
+  position: relative;
+}
+
+.video-size {
+  height: 250px;
+  position: absolute;
+}
+
+.laptop-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  align-content: center;
+}
+
+.scroll-section-outer {
+  overflow: hidden;
+}
+
+.scroll-section-inner {
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.scroll-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,36 @@
+.headerContainer{
+    background-color: #333d29;
+}
+
+.afName{
+    /* color: #936639; */
+}
+
+.greetingHeading{
+    padding-top: 4%;
+    padding-left: 4%;
+    width: 60%;
+    text-align: left;
+    font-size: 2rem;
+    white-space: nowrap;
+    line-height: 1.5rem;
+}
+
+.imageHeading{
+    float: right;
+    height: 400px;
+    padding: 25px;
+    border-radius: 100%;
+}
+
+.descriptionHeading{
+    text-align: left;
+    width: 40%;
+    margin-top: -1%;
+    margin-left: 2%;
+}
+
+.headshotHeading{
+    height: 500px;
+}
+

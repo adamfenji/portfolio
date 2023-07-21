@@ -1,0 +1,45 @@
+.timelineContainer {
+    background-color: #333d29;
+}
+
+.timelineDescription h3{
+    font-size: xx-large;
+    text-transform: capitalize;
+}
+
+.timelineDescription{
+    padding: 0% 5%;
+}
+
+
+.workTitle {
+    font-size: medium;
+}
+
+.workLocation {
+    margin-top: -10px;
+    font-size: small;
+}
+
+.workDescription {
+    font-size: small;
+}
+
+.workDate {
+    font-size: small;
+}
+
+.workStack {
+    float: right;
+}
+
+.stackImg {
+    height: 25px;
+}
+
+#tsImg {
+    height: 20px;
+    margin-bottom: 2px;
+    margin-right: 1px;
+    margin-left: 1px;
+}

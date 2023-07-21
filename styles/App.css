@@ -1,0 +1,30 @@
+#root {
+  margin: 0px;
+  text-align: center;
+}
+
+body{
+  margin: 0px;
+}
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  background-color: #333d29;
+  color: #eff1ed;
+}
+
+
+/* 
+TO DO
+
+. Fix sizing using MEDIA Query
+. Add animations
+. Add pointer
+. Add Download Resume
+
+ */
+
+
