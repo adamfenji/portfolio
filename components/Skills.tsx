@@ -35,7 +35,7 @@ function Skills() {
             <div className="skillsCardContainer">
 
                 <div className="skillCard">
-                    <img className="skillIcon" src="../img/html-icon" />
+                    <img className="skillIcon" src="/img/html-icon.png" />
                     <p>HTML</p>
                 </div>
 
