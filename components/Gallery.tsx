@@ -53,7 +53,16 @@ function Gallery() {
 
                         <div className="laptop-container scroll-section">
                             <img className="laptop-size" src="https://github.com/adamfenji/portfolio/blob/main/img/laptop-container.png?raw=true" />
-                            <img className="video-size" src="https://github.com/adamfenji/portfolio/blob/main/img/gameHub-img.png?raw=true" />
+                            <video autoPlay loop className="video-size">
+                                <source src="https://github.com/adamfenji/portfolio/blob/main/video/gamehub-vid.mp4?raw=true" type="video/mp4" />
+                            </video>
+                        </div>
+
+                        <div className="laptop-container scroll-section">
+                            <img className="laptop-size" src="https://github.com/adamfenji/portfolio/blob/main/img/laptop-container.png?raw=true" />
+                            <video autoPlay loop className="video-size">
+                                <source src="https://github.com/adamfenji/portfolio/blob/main/video/portfolio-vid.mp4?raw=true" type="video/mp4" />
+                            </video>
                         </div>
                     </div>
                 </div>
