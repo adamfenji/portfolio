@@ -5,11 +5,11 @@ function NavBar(){
         <div className="navBarContainer">
             <div className="links">
                 <ul>
-                    <li>ABOUT</li>
-                    <li>SKILLS</li>
-                    <li>CAREER</li>
-                    <li>PROJECTS</li>
-                    <li>CONTACT</li>
+                    <li><a href="#aboutSection">ABOUT</a></li>
+                    <li><a href="#skillsSection">SKILLS</a></li>
+                    <li><a href="#careerSection">CAREER</a></li>
+                    <li><a href="#projectsSection">PROJECTS</a></li>
+                    <li><a href="#connectSection">CONNECT</a></li>
                 </ul>
             </div>
         </div>

@@ -26,7 +26,7 @@ function Skills() {
     }, []);
 
     return (
-        <div className="skillsContainer">
+        <div id="skillsSection" className="skillsContainer">
             <div className="skillsDescription">
                 <h3>Skills</h3>
                 <p>Welcome to my skills arsenal, where my greatest asset lies in the ability to swiftly pick up new technologies and concepts.</p>

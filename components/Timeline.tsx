@@ -8,7 +8,7 @@ import 'react-vertical-timeline-component/style.min.css';
 
 function Timeline() {
     return (
-        <div className="timelineContainer">
+        <div id='careerSection' className="timelineContainer">
 
             <div className="timelineDescription">
                 <h3>Career</h3>

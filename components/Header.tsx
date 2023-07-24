@@ -2,7 +2,7 @@ import '../styles/header.css'
 
 function Header() {
     return (
-        <div className='headerContainer'>
+        <div id='aboutSection' className='headerContainer'>
 
             <div className="headshotHeading">
                 <img className="imageHeading" src="https://github.com/adamfenji/portfolio/blob/main/img/af-img.JPEG?raw=true" />

@@ -35,7 +35,7 @@ function Gallery() {
     }, []);
 
     return (
-        <div className="galleryContainer">
+        <div id="projectsSection" className="galleryContainer">
             <div className="galleryDescription">
                 <h3>Projects</h3>
                 <p>Welcome to my project showcase! Immerse yourself in a testament to the harmonious blend of design and functionality.</p>

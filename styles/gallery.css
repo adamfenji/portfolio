@@ -50,7 +50,51 @@
 }
 
 /* For phones */
-@media screen and (max-width: 767px) {}
+@media screen and (max-width: 767px) {
+
+  .galleryDescription {
+    color: #333d29;
+    padding: 0% 5%;
+  }
+  
+  .galleryDescription h3 {
+    padding-top: 2%;
+    font-size: xx-large;
+    text-transform: capitalize;
+    color: #333d29;
+  }
+  
+
+  .galleryDescription h3 {
+    padding-top: 2%;
+    font-size: xx-large;
+    text-transform: capitalize;
+    color: #333d29;
+  }
+  
+  .laptop-size {
+    height: 210px;
+    width: 550px;
+    position: relative;
+  }
+  
+  .video-size {
+    height: 130px;
+    position: absolute;
+  }
+
+  .scroll-section-inner {
+    height: 102vh;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .scroll-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 
 /* DONE For tablets */
 @media screen and (min-width: 768px) and (max-width: 991px) {

@@ -47,7 +47,28 @@
 }
 
 /* For phones */
-@media screen and (max-width: 767px) {}
+@media screen and (max-width: 767px) {
+    .skillsCardContainer {
+        background-color: #eff1ed;
+        padding: 10%;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0px;
+    }   
+    
+    .skillsDescription h3 {
+        padding-top: 4%;
+        color: #333d29;
+        font-size: xx-large;
+        text-transform: capitalize;
+        line-height: normal;
+    }
+    
+    .skillsDescription p {
+        color: #333d29;
+        padding: 0% 2%;
+    }
+}
 
 /* DONE For tablets */
 @media screen and (min-width: 768px) and (max-width: 991px) {
