@@ -15,7 +15,7 @@ function Timeline() {
                 <p>Embark on an exciting journey through my career as a computer science student, while refining my expertise through immersive work encounters, shaping me into the developer I am today.</p>
             </div>
 
-            <br/>
+            <br />
 
             <VerticalTimeline layout='1-column-left' lineColor='white' className='line'>
 
@@ -23,8 +23,31 @@ function Timeline() {
                     className="verticalElement"
                     contentStyle={{ color: 'black', textAlign: 'left' }} //Style the inside
                     contentArrowStyle={{ borderRight: '5px solid  white' }} //Style the arrow 
+                    date=" Expected Graduation: May 2025"
+                    iconStyle={{ background: '#333d29', color: '#eff1ed', height: '40px', width: '40px' }}
+                    icon={<FaCode />}
+                >
+
+                    <div className="workStack">
+                        <img className='stackImg' src='https://www.mtu.edu/mtu_resources/images/download-central/logos/husky-icon/full-color.png' />
+                    </div>
+
+                    <h3 className="workTitle">Bachelor of Science: Computer Science and Management Information Systems, Minor in Mathematical Science</h3>
+                    <h4 className="workLocation">Michigan Technological University — Houghton, MI</h4>
+
+                    <ul className='workDescription'>
+                        <li><b>Relevant Coursework</b>: Intro to Programming 1 and 2, Data Structure, Discrete Structures, Formal Models of Computation, Calculus 1 and 2 with Technology, Linear Algebra.</li>
+                        <li><b>Honors & Awards:</b> ITA All-Academic Team, ITA Scholar-Athlete honors, MIS Alumni award, Dean's List.</li>
+                        <li><b>Athletics:</b> Men's Varsity Tennis Team</li>
+                    </ul>
+                </VerticalTimelineElement>
+
+                <VerticalTimelineElement
+                    className="verticalElement"
+                    contentStyle={{ color: 'black', textAlign: 'left' }} //Style the inside
+                    contentArrowStyle={{ borderRight: '5px solid  white' }} //Style the arrow 
                     date=" May 2022 - June 2022"
-                    iconStyle={{ background: 'white', color: 'black', height: '40px', width: '40px' }}
+                    iconStyle={{ background: '#333d29', color: '#eff1ed', height: '40px', width: '40px' }}
                     icon={<FaCode />}
                 >
 
@@ -48,7 +71,7 @@ function Timeline() {
                     contentArrowStyle={{ borderRight: '5px solid  white' }} //Style the arrow 
                     date=" Jul 2022 - Aug 2022"
                     dateClassName={"workDate"}
-                    iconStyle={{ background: 'white', color: 'black', height: '40px', width: '40px' }}
+                    iconStyle={{ background: '#333d29', color: '#eff1ed', height: '40px', width: '40px' }}
                     icon={<FaCode />}
                 >
 
@@ -72,7 +95,7 @@ function Timeline() {
                     contentStyle={{ color: 'black', textAlign: 'left' }} //Style the inside
                     contentArrowStyle={{ borderRight: '5px solid  white' }} //Style the arrow 
                     date=" May 2023 - Aug 2023"
-                    iconStyle={{ background: 'white', color: 'black', height: '40px', width: '40px' }}
+                    iconStyle={{ background: '#333d29', color: '#eff1ed', height: '40px', width: '40px' }}
                     icon={<FaCode />}
                 >
 
