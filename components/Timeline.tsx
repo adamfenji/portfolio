@@ -1,9 +1,6 @@
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import { FaCode } from "react-icons/fa";
-
 import "../styles/timeline.css";
-
-
 import 'react-vertical-timeline-component/style.min.css';
 
 function Timeline() {
@@ -104,14 +101,15 @@ function Timeline() {
                         <img className='stackImg' src='https://github.com/adamfenji/portfolio/blob/main/img/css-icon.png?raw=true' />
                         <img className='stackImg' id='tsImg' src='https://github.com/adamfenji/portfolio/blob/main/img/ts-icon.png?raw=true' />
                         <img className='stackImg' src='https://github.com/adamfenji/portfolio/blob/main/img/react-icon.png?raw=true' />
+                        <img className='stackImg' src='https://github.com/adamfenji/portfolio/blob/main/img/git-icon.png?raw=true' />
                     </div>
 
                     <h3 className="workTitle">Front-End Research Inten, MTU</h3>
                     <h4 className="workLocation">Houghton, MI, USA</h4>
 
                     <ul className='workDescription'>
-                        <li>Created a database that contains traveler's data using SQL Server Management Studio and linked the database to a C# application that I developed to edit traveler's data. </li>
-                        <li>Unit tested the methods as well as the accessibility to the SQL database to ensure that all my code was working.</li>
+                        <li>Designed and built a large-scale, dynamic, and interactive online book from scratch using ReactJS and TypeScript. </li>
+                        <li>Implemented user-centric features that significantly improved the learning experience and reduced the learning curve for complex concepts, ensuring a more accessible and user-friendly educational platform.</li>
                     </ul>
                 </VerticalTimelineElement>
 
