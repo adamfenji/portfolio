@@ -23,7 +23,7 @@ function Gallery() {
                 scrollTrigger: {
                     trigger: triggerRef.current,
                     start: "top top",
-                    end: "2200 top",
+                    end: "1950 top",
                     scrub: 0.6,
                     pin: true,
                 },
