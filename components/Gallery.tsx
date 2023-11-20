@@ -14,16 +14,16 @@ function Gallery() {
         const pin = gsap.fromTo(
             sectionRef.current,
             {
-                translateX: 0,
+                translateX: "10vw",
             },
             {
-                translateX: "-70vw",
+                translateX: "-110vw",
                 ease: "none",
                 duration: 1,
                 scrollTrigger: {
                     trigger: triggerRef.current,
                     start: "top top",
-                    end: "1950 top",
+                    end: "2700 top",
                     scrub: 0.6,
                     pin: true,
                 },
@@ -46,15 +46,22 @@ function Gallery() {
                     <div ref={sectionRef} className="scroll-section-inner">
                         <div className="laptop-container scroll-section">
                             <img className="laptop-size" src="https://github.com/adamfenji/portfolio/blob/main/img/laptop-container.png?raw=true" />
-                            <video autoPlay loop className="video-size">
+                            <video controls className="video-size">
                                 <source src="https://github.com/adamfenji/portfolio/blob/main/video/weatherflipper-vid.mp4?raw=true" type="video/mp4" />
                             </video>
                         </div>
 
                         <div className="laptop-container scroll-section">
                             <img className="laptop-size" src="https://github.com/adamfenji/portfolio/blob/main/img/laptop-container.png?raw=true" />
-                            <video autoPlay loop className="video-size">
+                            <video controls className="video-size">
                                 <source src="https://github.com/adamfenji/portfolio/blob/main/video/gamehub-vid.mp4?raw=true" type="video/mp4" />
+                            </video>
+                        </div>
+
+                        <div className="laptop-container scroll-section">
+                            <img className="laptop-size" src="https://github.com/adamfenji/portfolio/blob/main/img/laptop-container.png?raw=true" />
+                            <video controls className="video-size">
+                                <source src="https://github.com/adamfenji/portfolio/blob/main/video/tasty-sips-vid.mp4?raw=true" type="video/mp4" />
                             </video>
                         </div>
                     </div>

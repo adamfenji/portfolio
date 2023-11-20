@@ -56,7 +56,17 @@ function Skills() {
 
                 <div className="skillCard">
                     <img className="skillIcon" src="https://github.com/adamfenji/portfolio/blob/main/img/react-icon.png?raw=true" />
-                    <p>ReactJS</p>
+                    <p>React JS</p>
+                </div>
+
+                <div className="skillCard">
+                    <img className="skillIcon" src="https://github.com/adamfenji/portfolio/blob/main\img\nodejs-icon.png?raw=true" />
+                    <p>Node JS</p>
+                </div>
+
+                <div className="skillCard">
+                    <img className="skillIcon" src="https://github.com/adamfenji/portfolio/blob/main\img\expressjs-icon.png?raw=true" />
+                    <p>Express JS</p>
                 </div>
 
                 <div className="skillCard">
@@ -77,6 +87,21 @@ function Skills() {
                 <div className="skillCard">
                     <img className="skillIcon" src="https://github.com/adamfenji/portfolio/blob/main/img/mysql-icon.png?raw=true" />
                     <p>SQL</p>
+                </div>
+
+                <div className="skillCard">
+                    <img className="skillIcon" src="https://github.com/adamfenji/portfolio/blob/main\img\mongodb-icon.png?raw=true" />
+                    <p>Mongo DB</p>
+                </div>
+
+                <div className="skillCard">
+                    <img className="skillIcon" src="https://github.com/adamfenji/portfolio/blob/main\img\mariadb-icon.png?raw=true" />
+                    <p>Maria DB</p>
+                </div>
+
+                <div className="skillCard">
+                    <img className="skillIcon" src="https://github.com/adamfenji/portfolio/blob/main\img\axios-icon.png?raw=true" />
+                    <p>Axios</p>
                 </div>
 
                 <div className="skillCard">

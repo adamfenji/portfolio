@@ -91,7 +91,7 @@ function Timeline() {
                     className="verticalElement"
                     contentStyle={{ color: 'black', textAlign: 'left' }} //Style the inside
                     contentArrowStyle={{ borderRight: '5px solid  white' }} //Style the arrow 
-                    date=" May 2023 - Aug 2023"
+                    date=" May 2023 - Current"
                     iconStyle={{ background: '#333d29', color: '#eff1ed', height: '40px', width: '40px' }}
                     icon={<FaCode />}
                 >
@@ -101,14 +101,18 @@ function Timeline() {
                         <img className='stackImg' src='https://github.com/adamfenji/portfolio/blob/main/img/css-icon.png?raw=true' />
                         <img className='stackImg' id='tsImg' src='https://github.com/adamfenji/portfolio/blob/main/img/ts-icon.png?raw=true' />
                         <img className='stackImg' src='https://github.com/adamfenji/portfolio/blob/main/img/react-icon.png?raw=true' />
+                        <img className='stackImg' src='https://github.com/adamfenji/portfolio/blob/main\img\nodejs-icon.png?raw=true' />
+                        <img className='stackImg' src='https://github.com/adamfenji/portfolio/blob/main\img\expressjs-icon.png?raw=true' />
+                        <img className='stackImg' src='https://github.com/adamfenji/portfolio/blob/main\img\mongodb-icon.png?raw=true' />
                         <img className='stackImg' src='https://github.com/adamfenji/portfolio/blob/main/img/git-icon.png?raw=true' />
+                        {/* .\img\axios-icon.png */}
                     </div>
 
-                    <h3 className="workTitle">Front-End Research Inten, MTU</h3>
+                    <h3 className="workTitle">Full-Stack Research Inten, MTU</h3>
                     <h4 className="workLocation">Houghton, MI, USA</h4>
 
                     <ul className='workDescription'>
-                        <li>Designed and built a large-scale, dynamic, and interactive online book from scratch using ReactJS and TypeScript. </li>
+                        <li>Led a research team in developing a full-stack educational platform using ReactJS, TypeScript, NodeJS, ExpressJS, MariaDB, and Git, ensuring scalability and responsiveness.</li>
                         <li>Implemented user-centric features that significantly improved the learning experience and reduced the learning curve for complex concepts, ensuring a more accessible and user-friendly educational platform.</li>
                     </ul>
                 </VerticalTimelineElement>
