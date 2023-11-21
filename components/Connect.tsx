@@ -6,7 +6,7 @@ function Connect() {
     return (
         <div id="connectSection" className="connectContainer">
             <div className="insideContainer">
-                <img className="contactImage" src="https://github.com/adamfenji/portfolio/blob/main/img/contact-img.jpeg" />
+                <img className="contactImage" src="https://github.com/adamfenji/portfolio/blob/main/img/contact-img.jpeg?raw=true" />
                 <div className="connectDescription">
                     <h3>Let's connect!</h3>
                     <p>I am currently located in Houghton, MI. However, I am willing to relocate or work remotely!</p>
